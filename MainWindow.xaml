@@ -1,0 +1,31 @@
+﻿<Window x:Class="WPFBasicLesson.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="615"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+     TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+     TextElement.FontWeight="Regular"
+     TextElement.FontSize="13"
+     TextOptions.TextFormattingMode="Ideal"
+     TextOptions.TextRenderingMode="Auto"
+     Background="{DynamicResource MaterialDesignPaper}"
+     FontFamily="{DynamicResource MaterialDesignFont}">
+    <Grid Margin="0,10,0,-10">
+        <materialDesign:Card Padding="32" Margin="102,23,87,0" Height="300">
+            <TextBlock FontFamily="Consolas" HorizontalAlignment="Left" Margin="84,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Height="28" Width="196"><Run Text="Инф"/><Run Text="ормация"/></TextBlock>
+        </materialDesign:Card>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="278,111,0,0" TextWrapping="Wrap" Text="Ербол" VerticalAlignment="Top" Width="70" FontFamily="Consolas" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="278,149,0,0" TextWrapping="Wrap" Text="Иргалиев" VerticalAlignment="Top" Width="82" FontFamily="Consolas" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="278,189,0,0" TextWrapping="Wrap" Text="SDP-181" VerticalAlignment="Top" Width="70" FontFamily="Consolas" FontSize="18" />
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="278,227,0,0" TextWrapping="Wrap" Text="yerbol.irgaliyev@gmail.com" VerticalAlignment="Top" Width="176" FontFamily="Times New Roman" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="278,267,0,0" TextWrapping="Wrap" Text="+77073332104" VerticalAlignment="Top" Width="176" FontFamily="Consolas" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="208,111,0,0" TextWrapping="Wrap" Text="Имя:" VerticalAlignment="Top" Width="50" FontFamily="Consolas" FontSize="18" TextDecorations="{x:Null}"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="174,149,0,0" TextWrapping="Wrap" Text="Фамилия:" VerticalAlignment="Top" Width="84" FontFamily="Consolas" FontSize="18" TextDecorations="{x:Null}"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="196,189,0,0" TextWrapping="Wrap" Text="Группа:" VerticalAlignment="Top" Width="62" FontFamily="Consolas" FontSize="18" TextDecorations="{x:Null}"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="196,227,0,0" TextWrapping="Wrap" Text="Почта:" VerticalAlignment="Top" Width="62" FontFamily="Consolas" FontSize="18" TextDecorations="{x:Null}"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="196,267,0,0" TextWrapping="Wrap" Text="Номер:" VerticalAlignment="Top" Width="62" FontFamily="Consolas" FontSize="18" TextDecorations="{x:Null}"/>
+    </Grid>
+</Window>
